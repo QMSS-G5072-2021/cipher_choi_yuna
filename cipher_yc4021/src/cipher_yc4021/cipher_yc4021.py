@@ -23,6 +23,11 @@ def cipher(text, shift, encrypt=True):
     >>> shift = 5
     >>> cipher(text, shift, encrypt = True)
     'MfqqtBjjs'
+    >>> from cipher_yc4021 import cipher_yc4021
+    >>> text = 'gzssD'
+    >>> shift = 5
+    >>> cipher(text, shift, encrypt = False)
+    'bunny'
     """
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
