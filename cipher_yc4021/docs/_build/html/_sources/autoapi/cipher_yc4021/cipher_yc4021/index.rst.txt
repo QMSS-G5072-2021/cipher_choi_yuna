@@ -1,0 +1,47 @@
+:py:mod:`cipher_yc4021.cipher_yc4021`
+=====================================
+
+.. py:module:: cipher_yc4021.cipher_yc4021
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_yc4021.cipher_yc4021.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Concatenates two pandas categoricals.
+
+   :param text: The text that will be encrypted/decrypted.
+   :type text: str
+   :param shift:  The number of positions you move right or lift.
+                 encrypt : bool
+                  A boolean that defines whether you are encrypting or decrypting text.
+   :type shift: int
+
+   :returns: The ending result will be a string.
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> from cipher_yc4021 import cipher_yc4021
+   >>> text = 'Halloween'
+   >>> shift = 5
+   >>> cipher(text, shift, encrypt = True)
+   'MfqqtBjjs'
+   >>> from cipher_yc4021 import cipher_yc4021
+   >>> text = 'gzssD'
+   >>> shift = 5
+   >>> cipher(text, shift, encrypt = False)
+   'bunny'
+
+
