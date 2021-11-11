@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "cipher_yc4021"
-version = "0.1.1"
+version = "0.1.2"
 description = "This package will encrypt and decrypt our strings!"
 authors = ["YuNa Choi"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 myst-nb = "^0.13.1"
